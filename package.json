@@ -3,10 +3,10 @@
   "version": "1.7.1",
   "description": "Adds eco support to brunch.",
   "author": "Paul Miller (http://paulmillr.com/)",
-  "homepage": "https://github.com/brunch/eco-brunch",
+  "homepage": "https://github.com/fujimura/eco-css-brunch",
   "repository": {
     "type": "git",
-    "url": "git@github.com:brunch/eco-brunch.git"
+    "url": "git@github.com:fujimura/eco-css-brunch.git"
   },
   "main": "./lib/index",
   "scripts": {
