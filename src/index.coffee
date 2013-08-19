@@ -3,7 +3,7 @@ umd = require 'umd-wrapper'
 
 module.exports = class EcoCompiler
   brunchPlugin: yes
-  type: 'template'
+  type: 'stylesheet'
   extension: 'eco'
 
   constructor: (@config) ->
@@ -11,7 +11,7 @@ module.exports = class EcoCompiler
 
   compile: (data, path, callback) ->
     try
-      result = umd eco.compile(data).toString()
+      result = eco.render(data)
     catch err
       error = err
     callback error, result
